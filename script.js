@@ -26,11 +26,11 @@ scene.add(mesh)
 
 
 /**  ---------------------------------      Size  */
-const size = {
+const sizes = {
   width: 800,
   height: 800
 }
 
 /**  ---------------------------------      Camera  */
-const camera = THREE.PerspectiveCamera(75, size.width / size.height)
+const camera = THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 scene.add(camera)
